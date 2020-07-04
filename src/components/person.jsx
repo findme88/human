@@ -4,11 +4,11 @@ import Me from "./me/me"
 
 export default class Person extends Component {
     render() {
-        let {name, age} = this.props
+        let {name, age, ShowAlert} = this.props
         return (
            
         
-            <Me name = {name} age = {age}/>
+            <Me name = {name} age = {age} ShowAlert = {ShowAlert}/>
           
         );
       }

@@ -10,12 +10,14 @@ export default class App extends Component {
 
   }
 
-  
+  ShowAlert = (name, age) => {
+    console.log(name, age)
+  }
   
   render() {
     return (
       
-        <Person name = { this.state.name } age = { this.state.age }/>
+        <Person name = { this.state.name } age = { this.state.age } ShowAlert = {this.ShowAlert}/>
       
     );
   }
