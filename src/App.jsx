@@ -11,7 +11,7 @@ export default class App extends Component {
   }
 
   ShowAlert = (name, age) => {
-    console.log(name, age)
+    alert(name, age)
   }
   
   render() {
